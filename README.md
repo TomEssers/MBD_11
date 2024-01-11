@@ -13,6 +13,7 @@ Research question: How did the lockdown periods during the COVID-19 period affec
 
 Subquestions:
 - Has the average flight time between the different airports changed during these periods?
+- How did the average delay times evolve over the COVID period in comparison to the years previous to COVID?
 
 COVID-19 period is defined as January 17th 2020 to 30th May 2022. This has been defined from using the timeline of the Dutch Rijksoverheid: https://www.rijksoverheid.nl/onderwerpen/coronavirus-tijdlijn
 
