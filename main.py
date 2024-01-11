@@ -9,8 +9,7 @@ sc.setLogLevel("ERROR")
 spark = SparkSession.builder.getOrCreate()
 
 # Read the first datafile from the dataset
-df1 = spark.read.json("/user/s2484765/project/flightdata.zip/flightlist_20190101_20190131.csv.gz")
+df1 = spark.read.json("/user/s2484765/project/flightdata/flightlist_20200101_20200131.csv.gz")
 
-
-
-print('test')
+# Print the first 5 entries
+print(df1.take(5))

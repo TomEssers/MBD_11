@@ -1,13 +1,17 @@
 # MBD_11
 
-Data of flights from: https://zenodo.org/records/7923702 and ... 
+Data of flights from: https://zenodo.org/records/7923702
+Citation: Matthias Schäfer, Martin Strohmeier, Vincent Lenders, Ivan Martinovic and Matthias Wilhelm. "Bringing Up OpenSky: A Large-scale ADS-B Sensor Network for Research".
+In Proceedings of the 13th IEEE/ACM International Symposium on Information Processing in Sensor Networks (IPSN), pages 83-94, April 2014.
+
+and ... 
 
 ## Research
 
 Research question: How did the lockdown periods during the COVID-19 period affect flight traffic from the Netherlands to other European Countries in comparison to non-lockdown periods?
 
 Subquestions:
-- 
+- Has the average flight time between the different airports changed during these periods?
 
 COVID-19 period is defined as January 17th 2020 to 30th May 2022. This has been defined from using the timeline of the Dutch Rijksoverheid: https://www.rijksoverheid.nl/onderwerpen/coronavirus-tijdlijn
 
