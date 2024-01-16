@@ -1,0 +1,1035 @@
+ident;type;name;continent;iso_country
+BG-JAM;medium_airport;Bezmer Air Base;EU;BG
+BIAR;medium_airport;Akureyri Airport;EU;IS
+BIEG;medium_airport;Egilsstaðir Airport;EU;IS
+BIHN;medium_airport;Hornafjörður Airport;EU;IS
+BIHU;medium_airport;Húsavík Airport;EU;IS
+BIIS;medium_airport;Ísafjörður Airport;EU;IS
+BIKF;large_airport;Keflavik International Airport;EU;IS
+BIRK;medium_airport;Reykjavik Airport;EU;IS
+BISI;medium_airport;Siglufjörður Airport;EU;IS
+BIVM;medium_airport;Vestmannaeyjar Airport;EU;IS
+BKPR;medium_airport;Priština Adem Jashari International Airport;EU;XK
+BY-0001;medium_airport;Orsha Airport - Balbasovo Air Base;EU;BY
+BY-0003;medium_airport;Bobrovichi Air Base;EU;BY
+BY-0006;medium_airport;Osovtsy Air Base;EU;BY
+EBAW;medium_airport;Antwerp International Airport (Deurne);EU;BE
+EBBE;medium_airport;Beauvechain Air Base;EU;BE
+EBBL;medium_airport;Kleine Brogel Air Base;EU;BE
+EBBR;large_airport;Brussels Airport;EU;BE
+EBCI;medium_airport;Brussels South Charleroi Airport;EU;BE
+EBCV;medium_airport;Chièvres Air Base;EU;BE
+EBFN;medium_airport;Koksijde Air Base;EU;BE
+EBFS;medium_airport;Florennes Air Base;EU;BE
+EBKT;medium_airport;Wevelgem Airport;EU;BE
+EBLG;medium_airport;Liège Airport;EU;BE
+EBOS;medium_airport;Ostend-Bruges International Airport;EU;BE
+EDAC;medium_airport;Altenburg-Nobitz Airport;EU;DE
+EDAH;medium_airport;Heringsdorf Airport;EU;DE
+EDBN;medium_airport;Neubrandenburg Airport;EU;DE
+EDBR;medium_airport;Rothenburg/Görlitz Airfield;EU;DE
+EDDB;large_airport;Berlin Brandenburg Airport;EU;DE
+EDDC;medium_airport;Dresden Airport;EU;DE
+EDDE;medium_airport;Erfurt Airport;EU;DE
+EDDF;large_airport;Frankfurt Airport;EU;DE
+EDDG;medium_airport;Münster Osnabrück Airport;EU;DE
+EDDH;large_airport;Hamburg Helmut Schmidt Airport;EU;DE
+EDDK;large_airport;Cologne Bonn Airport;EU;DE
+EDDL;large_airport;Düsseldorf Airport;EU;DE
+EDDM;large_airport;Munich Airport;EU;DE
+EDDN;large_airport;Nuremberg Airport;EU;DE
+EDDP;large_airport;Leipzig/Halle Airport;EU;DE
+EDDR;medium_airport;Saarbrücken Airport;EU;DE
+EDDS;large_airport;Stuttgart Airport;EU;DE
+EDDV;large_airport;Hannover Airport;EU;DE
+EDDW;medium_airport;Bremen Airport;EU;DE
+EDFE;medium_airport;Frankfurt-Egelsbach Airport;EU;DE
+EDFH;medium_airport;Frankfurt-Hahn Airport;EU;DE
+EDFM;medium_airport;Mannheim-City Airport;EU;DE
+EDFZ;medium_airport;Mainz-Finthen Airport;EU;DE
+EDGE;medium_airport;Eisenach-Kindel Airport;EU;DE
+EDGS;medium_airport;Siegerland Airport;EU;DE
+EDHI;medium_airport;Hamburg-Finkenwerder Airport;EU;DE
+EDHK;medium_airport;Kiel-Holtenau Airport;EU;DE
+EDHL;medium_airport;Lübeck Blankensee Airport;EU;DE
+EDJA;medium_airport;Memmingen Allgau Airport;EU;DE
+EDLN;medium_airport;Mönchengladbach Airport;EU;DE
+EDLP;medium_airport;Paderborn Lippstadt Airport;EU;DE
+EDLV;medium_airport;Weeze Airport;EU;DE
+EDLW;medium_airport;Dortmund Airport;EU;DE
+EDMA;medium_airport;Augsburg Airport;EU;DE
+EDMO;medium_airport;Oberpfaffenhofen Airport;EU;DE
+EDNY;medium_airport;Friedrichshafen Airport;EU;DE
+EDOP;medium_airport;Schwerin Parchim Airport;EU;DE
+EDQA;medium_airport;Bamberg-Breitenau Airfield;EU;DE
+EDQD;medium_airport;Bayreuth Airport;EU;DE
+EDQM;medium_airport;Hof-Plauen Airport;EU;DE
+EDSB;medium_airport;Karlsruhe Baden-Baden Airport;EU;DE
+EDTD;medium_airport;Flugplatz Donaueschingen-Villingen;EU;DE
+EDTL;medium_airport;Lahr Airport;EU;DE
+EDTY;medium_airport;Adolf Würth Airport;EU;DE
+EDUZ;medium_airport;Flugplatz Zerbst;EU;DE
+EDVE;medium_airport;Braunschweig-Wolfsburg Airport;EU;DE
+EDVK;medium_airport;Kassel-Calden Airport;EU;DE
+EDXW;medium_airport;Westerland Sylt Airport;EU;DE
+EEEI;medium_airport;Ämari Air Base;EU;EE
+EEKA;medium_airport;Kärdla Airport;EU;EE
+EEKE;medium_airport;Kuressaare Airport;EU;EE
+EEPU;medium_airport;Pärnu Airport;EU;EE
+EETN;large_airport;Lennart Meri Tallinn Airport;EU;EE
+EETU;medium_airport;Tartu Airport;EU;EE
+EFET;medium_airport;Enontekio Airport;EU;FI
+EFHA;medium_airport;Halli Airport;EU;FI
+EFHK;large_airport;Helsinki Vantaa Airport;EU;FI
+EFIT;medium_airport;Kitee Airport;EU;FI
+EFIV;medium_airport;Ivalo Airport;EU;FI
+EFJO;medium_airport;Joensuu Airport;EU;FI
+EFJY;medium_airport;Jyväskylä Airport;EU;FI
+EFKA;medium_airport;Kauhava Airfield;EU;FI
+EFKE;medium_airport;Kemi-Tornio Airport;EU;FI
+EFKI;medium_airport;Kajaani Airport;EU;FI
+EFKJ;medium_airport;Kauhajoki Airfield;EU;FI
+EFKK;medium_airport;Kokkola-Pietarsaari Airport;EU;FI
+EFKS;medium_airport;Kuusamo Airport;EU;FI
+EFKT;medium_airport;Kittilä Airport;EU;FI
+EFKU;medium_airport;Kuopio Airport;EU;FI
+EFLP;medium_airport;Lappeenranta Airport;EU;FI
+EFMA;medium_airport;Mariehamn Airport;EU;FI
+EFMI;medium_airport;Mikkeli Airport;EU;FI
+EFOU;medium_airport;Oulu Airport;EU;FI
+EFPO;medium_airport;Pori Airport;EU;FI
+EFPR;medium_airport;Helsinki East-Redstone Airport;EU;FI
+EFRO;medium_airport;Rovaniemi Airport;EU;FI
+EFSA;medium_airport;Savonlinna Airport;EU;FI
+EFSI;medium_airport;Seinäjoki Airport;EU;FI
+EFSO;medium_airport;Sodankyla Airport;EU;FI
+EFTP;medium_airport;Tampere-Pirkkala Airport;EU;FI
+EFTU;medium_airport;Turku Airport;EU;FI
+EFUT;medium_airport;Utti Air Base;EU;FI
+EFVA;medium_airport;Vaasa Airport;EU;FI
+EFVR;medium_airport;Varkaus Airport;EU;FI
+EFYL;medium_airport;Ylivieska Airfield;EU;FI
+EGAA;large_airport;Belfast International Airport;EU;GB
+EGAB;medium_airport;Enniskillen/St Angelo Airport;EU;GB
+EGAC;medium_airport;George Best Belfast City Airport;EU;GB
+EGAE;medium_airport;City of Derry Airport;EU;GB
+EGBB;large_airport;Birmingham International Airport;EU;GB
+EGBE;medium_airport;Coventry Airport;EU;GB
+EGBJ;medium_airport;Gloucestershire Airport;EU;GB
+EGBN;medium_airport;Nottingham Airport;EU;GB
+EGCC;large_airport;Manchester Airport;EU;GB
+EGDC;medium_airport;Royal Marines Base Chivenor Airport;EU;GB
+EGDM;medium_airport;MoD Boscombe Down Airport;EU;GB
+EGDR;medium_airport;RNAS Culdrose;EU;GB
+EGDX;medium_airport;St. Athan Airport;EU;GB
+EGDY;medium_airport;RNAS Yeovilton;EU;GB
+EGEC;medium_airport;Campbeltown Airport;EU;GB
+EGED;medium_airport;Eday Airport;EU;GB
+EGFE;medium_airport;Haverfordwest Airport;EU;GB
+EGFF;medium_airport;Cardiff International Airport;EU;GB
+EGFH;medium_airport;Swansea Airport;EU;GB
+EGGD;medium_airport;Bristol Airport;EU;GB
+EGGP;medium_airport;Liverpool John Lennon Airport;EU;GB
+EGGW;large_airport;London Luton Airport;EU;GB
+EGHH;medium_airport;Bournemouth Airport;EU;GB
+EGHI;medium_airport;Southampton Airport;EU;GB
+EGHL;medium_airport;Lasham Airfield;EU;GB
+EGHQ;medium_airport;Cornwall Airport Newquay;EU;GB
+EGJA;medium_airport;Alderney Airport;EU;GG
+EGJB;medium_airport;Guernsey Airport;EU;GG
+EGJJ;medium_airport;Jersey Airport;EU;JE
+EGKA;medium_airport;Shoreham Airport;EU;GB
+EGKB;medium_airport;London Biggin Hill Airport;EU;GB
+EGKK;large_airport;London Gatwick Airport;EU;GB
+EGLC;medium_airport;London City Airport;EU;GB
+EGLF;medium_airport;Farnborough Airport;EU;GB
+EGLK;medium_airport;Blackbushe Airport;EU;GB
+EGLL;large_airport;London Heathrow Airport;EU;GB
+EGMC;medium_airport;Southend Airport;EU;GB
+EGMD;medium_airport;Lydd Airport;EU;GB
+EGNC;medium_airport;Carlisle Airport;EU;GB
+EGNH;medium_airport;Blackpool International Airport;EU;GB
+EGNJ;medium_airport;Humberside Airport;EU;GB
+EGNL;medium_airport;Barrow Walney Island Airport;EU;GB
+EGNM;medium_airport;Leeds Bradford Airport;EU;GB
+EGNO;medium_airport;Warton Aerodrome;EU;GB
+EGNR;medium_airport;Hawarden Airport;EU;GB
+EGNS;medium_airport;Isle of Man Airport;EU;IM
+EGNT;medium_airport;Newcastle Airport;EU;GB
+EGNV;medium_airport;Teesside International Airport;EU;GB
+EGNX;medium_airport;East Midlands Airport;EU;GB
+EGOM;medium_airport;RAF Spadeadam;EU;GB
+EGOS;medium_airport;RAF Shawbury;EU;GB
+EGOV;medium_airport;Anglesey Airport;EU;GB
+EGPA;medium_airport;Kirkwall Airport;EU;GB
+EGPB;medium_airport;Sumburgh Airport;EU;GB
+EGPC;medium_airport;Wick Airport;EU;GB
+EGPD;medium_airport;Aberdeen Dyce Airport;EU;GB
+EGPE;medium_airport;Inverness Airport;EU;GB
+EGPF;large_airport;Glasgow International Airport;EU;GB
+EGPH;large_airport;Edinburgh Airport;EU;GB
+EGPI;medium_airport;Islay Airport;EU;GB
+EGPK;medium_airport;Glasgow Prestwick Airport;EU;GB
+EGPL;medium_airport;Benbecula Airport;EU;GB
+EGPN;medium_airport;Dundee Airport;EU;GB
+EGPO;medium_airport;Stornoway Airport;EU;GB
+EGPR;medium_airport;Barra Airport;EU;GB
+EGPU;medium_airport;Tiree Airport;EU;GB
+EGQL;medium_airport;Leuchars Station Airfield;EU;GB
+EGQS;medium_airport;RAF Lossiemouth;EU;GB
+EGSC;medium_airport;Cambridge Airport;EU;GB
+EGSH;medium_airport;Norwich Airport;EU;GB
+EGSS;large_airport;London Stansted Airport;EU;GB
+EGTC;medium_airport;Cranfield Airport;EU;GB
+EGTE;medium_airport;Exeter International Airport;EU;GB
+EGTK;medium_airport;Oxford (Kidlington) Airport;EU;GB
+EGUB;medium_airport;RAF Benson;EU;GB
+EGUL;medium_airport;RAF Lakenheath;EU;GB
+EGUN;medium_airport;RAF Mildenhall;EU;GB
+EGUW;medium_airport;Wattisham Airfield;EU;GB
+EGVA;medium_airport;RAF Fairford;EU;GB
+EGVN;medium_airport;RAF Brize Norton;EU;GB
+EGVO;medium_airport;RAF Odiham;EU;GB
+EGWC;medium_airport;DCAE Cosford Air Base;EU;GB
+EGWU;medium_airport;RAF Northolt;EU;GB
+EGXC;medium_airport;RAF Coningsby;EU;GB
+EGXE;medium_airport;RAF Leeming Air Base;EU;GB
+EGXG;medium_airport;Leeds East Airport;EU;GB
+EGXH;medium_airport;RAF Honington;EU;GB
+EGXP;medium_airport;RAF Scampton;EU;GB
+EGXT;medium_airport;RAF Wittering;EU;GB
+EGXW;medium_airport;RAF Waddington;EU;GB
+EGXZ;medium_airport;RAF Topcliffe;EU;GB
+EGYD;medium_airport;RAF Cranwell;EU;GB
+EGYE;medium_airport;RAF Barkston Heath;EU;GB
+EGYM;medium_airport;RAF Marham;EU;GB
+EHAM;large_airport;Amsterdam Airport Schiphol;EU;NL
+EHBD;medium_airport;Kempen Airport Budel;EU;NL
+EHBK;medium_airport;Maastricht Aachen Airport;EU;NL
+EHDL;medium_airport;Deelen Air Base;EU;NL
+EHDP;medium_airport;De Peel Air Base;EU;NL
+EHEH;large_airport;Eindhoven Airport;EU;NL
+EHGG;medium_airport;Groningen Airport Eelde;EU;NL
+EHGR;medium_airport;Gilze Rijen Air Base;EU;NL
+EHKD;medium_airport;De Kooy Airfield / Den Helder Naval Air Station;EU;NL
+EHLE;medium_airport;Lelystad Airport;EU;NL
+EHLW;medium_airport;Leeuwarden Air Base;EU;NL
+EHRD;medium_airport;Rotterdam The Hague Airport;EU;NL
+EHTW;medium_airport;Twente Airport;EU;NL
+EHVK;medium_airport;Volkel Air Base;EU;NL
+EHWO;medium_airport;Woensdrecht Air Base;EU;NL
+EICK;medium_airport;Cork Airport;EU;IE
+EICM;medium_airport;Galway Airport;EU;IE
+EIDL;medium_airport;Donegal Airport;EU;IE
+EIDW;large_airport;Dublin Airport;EU;IE
+EIKN;medium_airport;Ireland West Knock Airport;EU;IE
+EIKY;medium_airport;Kerry Airport;EU;IE
+EIME;medium_airport;Casement Air Base;EU;IE
+EINN;large_airport;Shannon Airport;EU;IE
+EISG;medium_airport;Sligo Airport;EU;IE
+EIWF;medium_airport;Waterford Airport;EU;IE
+EIWT;medium_airport;Weston Airfield;EU;IE
+EKAH;medium_airport;Aarhus Airport;EU;DK
+EKBI;large_airport;Billund Airport;EU;DK
+EKCH;large_airport;Copenhagen Kastrup Airport;EU;DK
+EKEB;medium_airport;Esbjerg Airport;EU;DK
+EKKA;medium_airport;Karup Airport;EU;DK
+EKMB;medium_airport;Lolland Falster Maribo Airport;EU;DK
+EKOD;medium_airport;Odense Airport;EU;DK
+EKRK;medium_airport;Copenhagen Roskilde Airport;EU;DK
+EKRN;medium_airport;Bornholm Airport;EU;DK
+EKSB;medium_airport;Sønderborg Airport;EU;DK
+EKSN;medium_airport;Sindal Airport;EU;DK
+EKSP;medium_airport;Skrydstrup Air Base;EU;DK
+EKSV;medium_airport;Skive Airport;EU;DK
+EKTS;medium_airport;Thisted Airport;EU;DK
+EKVD;medium_airport;Kolding Vamdrup Airfield;EU;DK
+EKVG;medium_airport;Vágar Airport;EU;FO
+EKVJ;medium_airport;Stauning Airport;EU;DK
+EKYT;medium_airport;Aalborg Airport;EU;DK
+ELLX;large_airport;Luxembourg-Findel International Airport;EU;LU
+ENAL;medium_airport;Ålesund Airport, Vigra;EU;NO
+ENAN;medium_airport;Andøya Airport, Andenes;EU;NO
+ENAT;medium_airport;Alta Airport;EU;NO
+ENBN;medium_airport;Brønnøysund Airport, Brønnøy;EU;NO
+ENBO;medium_airport;Bodø Airport;EU;NO
+ENBR;large_airport;Bergen Airport, Flesland;EU;NO
+ENBS;medium_airport;Båtsfjord Airport;EU;NO
+ENBV;medium_airport;Berlevåg Airport;EU;NO
+ENCN;medium_airport;Kristiansand Airport, Kjevik;EU;NO
+ENDU;medium_airport;Bardufoss Airport;EU;NO
+ENEN;medium_airport;Engeløy Airport;EU;NO
+ENEV;medium_airport;Harstad/Narvik Airport, Evenes;EU;NO
+ENFG;medium_airport;Fagernes Airport, Leirin;EU;NO
+ENFL;medium_airport;Florø Airport;EU;NO
+ENGM;large_airport;Oslo Airport, Gardermoen;EU;NO
+ENHD;medium_airport;Haugesund Airport, Karmøy;EU;NO
+ENHF;medium_airport;Hammerfest Airport;EU;NO
+ENHV;medium_airport;Honningsvåg Airport, Valan;EU;NO
+ENKB;medium_airport;Kristiansund Airport, Kvernberget;EU;NO
+ENKR;medium_airport;Kirkenes Airport, Høybuktmoen;EU;NO
+ENLK;medium_airport;Leknes Airport;EU;NO
+ENMH;medium_airport;Mehamn Airport;EU;NO
+ENML;medium_airport;Molde Airport, Årø;EU;NO
+ENMS;medium_airport;Mosjøen Airport, Kjærstad;EU;NO
+ENNA;medium_airport;Lakselv Airport, Banak;EU;NO
+ENNO;medium_airport;Notodden Airport;EU;NO
+ENOL;medium_airport;Ørland Airport;EU;NO
+ENOV;medium_airport;Ørsta-Volda Airport, Hovden;EU;NO
+ENRA;medium_airport;Mo i Rana Airport, Røssvoll;EU;NO
+ENRM;medium_airport;Rørvik Airport, Ryum;EU;NO
+ENRO;medium_airport;Røros Airport;EU;NO
+ENRY;medium_airport;Moss Airport, Rygge;EU;NO
+ENSB;medium_airport;Svalbard Airport, Longyear;EU;NO
+ENSH;medium_airport;Svolvær Airport, Helle;EU;NO
+ENSK;medium_airport;Stokmarknes Airport, Skagen;EU;NO
+ENSN;medium_airport;Skien Airport;EU;NO
+ENSO;medium_airport;Stord Airport, Sørstokken;EU;NO
+ENSR;medium_airport;Sørkjosen Airport;EU;NO
+ENSS;medium_airport;Vardø Airport, Svartnes;EU;NO
+ENST;medium_airport;Sandnessjøen Airport, Stokka;EU;NO
+ENTC;large_airport;Tromsø Airport, Langnes;EU;NO
+ENTO;medium_airport;Sandefjord Airport, Torp;EU;NO
+ENVA;large_airport;Trondheim Airport, Værnes;EU;NO
+ENVD;medium_airport;Vadsø Airport;EU;NO
+ENZV;large_airport;Stavanger Airport, Sola;EU;NO
+EPBY;medium_airport;Bydgoszcz Ignacy Jan Paderewski Airport;EU;PL
+EPCE;medium_airport;Cewice Air Base;EU;PL
+EPDE;medium_airport;Deblin Military Air Base;EU;PL
+EPGD;large_airport;Gdańsk Lech Wałęsa Airport;EU;PL
+EPIR;medium_airport;Inowroclaw Military Air Base;EU;PL
+EPKK;large_airport;Kraków John Paul II International Airport;EU;PL
+EPKS;medium_airport;Krzesiny Military Air Base;EU;PL
+EPKT;medium_airport;Katowice International Airport;EU;PL
+EPLB;medium_airport;Lublin Airport;EU;PL
+EPLK;medium_airport;Lask Military Air Base;EU;PL
+EPLL;medium_airport;Łódź Władysław Reymont Airport;EU;PL
+EPLS;medium_airport;Leszno-Strzyzewice Airport;EU;PL
+EPLY;medium_airport;Leczyca Military Air Base;EU;PL
+EPMB;medium_airport;22nd Air Base;EU;PL
+EPMI;medium_airport;Miroslawiec Military Air Base;EU;PL
+EPMM;medium_airport;Minsk Mazowiecki Military Air Base;EU;PL
+EPMO;medium_airport;Modlin Airport;EU;PL
+EPOK;medium_airport;Oksywie Military Air Base;EU;PL
+EPPO;medium_airport;Poznań-Ławica Airport;EU;PL
+EPPW;medium_airport;Powidz Military Air Base;EU;PL
+EPRA;medium_airport;Radom Airport;EU;PL
+EPRZ;medium_airport;Rzeszów-Jasionka Airport;EU;PL
+EPSC;medium_airport;"Szczecin-Goleniów ""Solidarność"" Airport";EU;PL
+EPSN;medium_airport;Swidwin Military Air Base;EU;PL
+EPSY;medium_airport;Olsztyn-Mazury Airport;EU;PL
+EPTM;medium_airport;Tomaszow Mazowiecki Military Air Base;EU;PL
+EPWA;large_airport;Warsaw Chopin Airport;EU;PL
+EPWR;medium_airport;Copernicus Wrocław Airport;EU;PL
+EPZG;medium_airport;Zielona Góra-Babimost Airport;EU;PL
+ES-0109;medium_airport;Folgueroles Airfield;EU;ES
+ESCF;medium_airport;Malmen Air Base;EU;SE
+ESDF;medium_airport;Ronneby Airport;EU;SE
+ESFR;medium_airport;Råda Air Base;EU;SE
+ESGG;large_airport;Gothenburg-Landvetter Airport;EU;SE
+ESGJ;medium_airport;Jönköping Airport;EU;SE
+ESGP;medium_airport;Gothenburg City Airport;EU;SE
+ESGR;medium_airport;Skövde Airport;EU;SE
+ESGT;medium_airport;Trollhättan-Vänersborg Airport;EU;SE
+ESIB;medium_airport;Såtenäs Air Base;EU;SE
+ESKK;medium_airport;Karlskoga Airport;EU;SE
+ESKM;medium_airport;Mora Airport;EU;SE
+ESKN;medium_airport;Stockholm Skavsta Airport;EU;SE
+ESKS;medium_airport;Scandinavian Mountains Airport;EU;SE
+ESMK;medium_airport;Kristianstad Airport;EU;SE
+ESMQ;medium_airport;Kalmar Airport;EU;SE
+ESMS;medium_airport;Malmö Sturup Airport;EU;SE
+ESMT;medium_airport;Halmstad Airport;EU;SE
+ESMX;medium_airport;Växjö Kronoberg Airport;EU;SE
+ESND;medium_airport;Sveg Airport;EU;SE
+ESNG;medium_airport;Gällivare Airport;EU;SE
+ESNK;medium_airport;Kramfors-Sollefteå Höga Kusten Airport;EU;SE
+ESNL;medium_airport;Lycksele Airport;EU;SE
+ESNN;medium_airport;Sundsvall-Härnösand Airport;EU;SE
+ESNO;medium_airport;Örnsköldsvik Airport;EU;SE
+ESNQ;medium_airport;Kiruna Airport;EU;SE
+ESNS;medium_airport;Skellefteå Airport;EU;SE
+ESNU;medium_airport;Umeå Airport;EU;SE
+ESNV;medium_airport;Vilhelmina South Lapland Airport;EU;SE
+ESNX;medium_airport;Arvidsjaur Airport;EU;SE
+ESNY;medium_airport;Söderhamn Airport;EU;SE
+ESNZ;medium_airport;Åre Östersund Airport;EU;SE
+ESOE;medium_airport;Örebro Airport;EU;SE
+ESOH;medium_airport;Hagfors Airport;EU;SE
+ESOK;medium_airport;Karlstad Airport;EU;SE
+ESOW;medium_airport;Stockholm Västerås Airport;EU;SE
+ESPA;medium_airport;Luleå Airport;EU;SE
+ESSA;large_airport;Stockholm-Arlanda Airport;EU;SE
+ESSB;medium_airport;Stockholm-Bromma Airport;EU;SE
+ESSD;medium_airport;Dala Airport;EU;SE
+ESSK;medium_airport;Gävle Sandviken Airport;EU;SE
+ESSL;medium_airport;Linköping City Airport;EU;SE
+ESSP;medium_airport;Norrköping Airport;EU;SE
+ESST;medium_airport;Torsby Airport;EU;SE
+ESSU;medium_airport;Eskilstuna Airport;EU;SE
+ESSV;medium_airport;Visby Airport;EU;SE
+ESTA;medium_airport;Ängelholm-Helsingborg Airport;EU;SE
+ESTL;medium_airport;Ljungbyhed Airport;EU;SE
+ESUD;medium_airport;Storuman Airport;EU;SE
+ESUP;medium_airport;Pajala Airport;EU;SE
+ESUT;medium_airport;Hemavan Airport;EU;SE
+ETAD;medium_airport;Spangdahlem Air Base;EU;DE
+ETAR;medium_airport;Ramstein Air Base;EU;DE
+ETHB;medium_airport;Bückeburg Air Base;EU;DE
+ETHC;medium_airport;Celle Army Airfield;EU;DE
+ETHF;medium_airport;Fritzlar Army Airfield;EU;DE
+ETHL;medium_airport;Laupheim Air Base;EU;DE
+ETHN;medium_airport;Niederstetten Army Air Base;EU;DE
+ETHS;medium_airport;Fassberg Air Base;EU;DE
+ETIC;medium_airport;Grafenwohr Army Air Field;EU;DE
+ETIH;medium_airport;Hohenfels Army Airfield;EU;DE
+ETMN;medium_airport;Nordholz Naval Airbase;EU;DE
+ETND;medium_airport;Diepholz Air Base;EU;DE
+ETNG;medium_airport;Geilenkirchen Air Base;EU;DE
+ETNH;medium_airport;Hohn Air Base;EU;DE
+ETNL;medium_airport;Rostock-Laage Airport;EU;DE
+ETNN;medium_airport;Nörvenich Air Base;EU;DE
+ETNS;medium_airport;Schleswig Air Base;EU;DE
+ETNT;medium_airport;Wittmundhafen Air Base;EU;DE
+ETNW;medium_airport;Wunstorf Air Base;EU;DE
+ETOU;medium_airport;Wiesbaden Army Airfield;EU;DE
+ETSB;medium_airport;Büchel Air Base;EU;DE
+ETSH;medium_airport;Holzdorf Air Base;EU;DE
+ETSI;medium_airport;Ingolstadt Manching Airport;EU;DE
+ETSL;medium_airport;Lechfeld Air Base;EU;DE
+ETSN;medium_airport;Neuburg AFB;EU;DE
+EVDA;medium_airport;Daugavpils International Airport;EU;LV
+EVKA;medium_airport;Jēkabpils Air Base;EU;LV
+EVLA;medium_airport;Liepāja International Airport;EU;LV
+EVRA;large_airport;Riga International Airport;EU;LV
+EVTA;medium_airport;Jūrmala Airport;EU;LV
+EVVA;medium_airport;Ventspils International Airport;EU;LV
+EYKA;medium_airport;Kaunas International Airport;EU;LT
+EYKD;medium_airport;Kėdainiai Air Base;EU;LT
+EYPA;medium_airport;Palanga International Airport;EU;LT
+EYPP;medium_airport;Panevėžys Air Base;EU;LT
+EYSA;medium_airport;Šiauliai International Airport;EU;LT
+EYSB;medium_airport;Barysiai Airfield;EU;LT
+EYVI;large_airport;Vilnius International Airport;EU;LT
+HU-0002;medium_airport;Kalocsa-Foktő Airport;EU;HU
+LAKU;medium_airport;Kukës International Airport;EU;AL
+LAKV;medium_airport;Kuçovë Air Base;EU;AL
+LATI;large_airport;Tirana International Airport Mother Teresa;EU;AL
+LBBG;large_airport;Burgas Airport;EU;BG
+LBGO;medium_airport;Gorna Oryahovitsa Airport;EU;BG
+LBPD;medium_airport;Plovdiv International Airport;EU;BG
+LBPG;medium_airport;Graf Ignatievo Air Base;EU;BG
+LBPL;medium_airport;Dolna Mitropoliya Air Base;EU;BG
+LBSF;large_airport;Sofia Airport;EU;BG
+LBWB;medium_airport;Balchik Airfield;EU;BG
+LBWN;large_airport;Varna Airport;EU;BG
+LDDU;medium_airport;Dubrovnik Airport;EU;HR
+LDOS;medium_airport;Osijek Airport;EU;HR
+LDPL;medium_airport;Pula Airport;EU;HR
+LDRI;medium_airport;Rijeka Airport;EU;HR
+LDSB;medium_airport;Brač Airport;EU;HR
+LDSP;medium_airport;Split Airport;EU;HR
+LDZA;large_airport;Zagreb Airport;EU;HR
+LDZD;medium_airport;Zadar Airport;EU;HR
+LEAB;medium_airport;Albacete Airport / Los Llanos Air Base;EU;ES
+LEAL;large_airport;Alicante-Elche Miguel Hernández Airport;EU;ES
+LEAM;medium_airport;Almería Airport;EU;ES
+LEAS;medium_airport;Asturias Airport;EU;ES
+LEBA;medium_airport;Córdoba Airport;EU;ES
+LEBB;medium_airport;Bilbao Airport;EU;ES
+LEBG;medium_airport;Burgos Airport;EU;ES
+LEBL;large_airport;Josep Tarradellas Barcelona-El Prat Airport;EU;ES
+LEBZ;medium_airport;Badajoz Airport;EU;ES
+LECH;medium_airport;Castellón-Costa Azahar Airport;EU;ES
+LECO;medium_airport;A Coruña Airport;EU;ES
+LEDA;medium_airport;Lleida-Alguaire Airport;EU;ES
+LEGA;medium_airport;Armilla Air Base;EU;ES
+LEGE;medium_airport;Girona-Costa Brava Airport;EU;ES
+LEGR;medium_airport;F.G.L. Airport Granada-Jaén Airport;EU;ES
+LEGT;medium_airport;Getafe Air Base;EU;ES
+LEIB;large_airport;Ibiza Airport;EU;ES
+LEJR;medium_airport;Jerez Airport;EU;ES
+LELC;medium_airport;San Javier Airport;EU;ES
+LELN;medium_airport;León Airport;EU;ES
+LELO;medium_airport;Logroño-Agoncillo Airport;EU;ES
+LEMD;large_airport;Adolfo Suárez Madrid–Barajas Airport;EU;ES
+LEMG;large_airport;Málaga-Costa del Sol Airport;EU;ES
+LEMH;medium_airport;Menorca Airport;EU;ES
+LEMI;medium_airport;Región de Murcia International Airport;EU;ES
+LEMO;medium_airport;Moron Air Base;EU;ES
+LEPA;large_airport;Palma de Mallorca Airport;EU;ES
+LEPP;medium_airport;Pamplona Airport;EU;ES
+LERI;medium_airport;Alcantarilla Air Base;EU;ES
+LERL;medium_airport;Ciudad Real International Airport;EU;ES
+LERS;medium_airport;Reus Airport;EU;ES
+LERT;medium_airport;Rota Naval Station Airport;EU;ES
+LESA;medium_airport;Salamanca Airport;EU;ES
+LESO;medium_airport;San Sebastián Airport;EU;ES
+LEST;large_airport;Santiago-Rosalía de Castro Airport;EU;ES
+LETL;medium_airport;Teruel Airport;EU;ES
+LETO;medium_airport;Madrid–Torrejón Airport / Torrejón Air Base;EU;ES
+LEVC;medium_airport;Valencia Airport;EU;ES
+LEVD;medium_airport;Valladolid Airport;EU;ES
+LEVT;medium_airport;Vitoria Airport;EU;ES
+LEVX;medium_airport;Vigo Airport;EU;ES
+LEXJ;medium_airport;Seve Ballesteros-Santander Airport;EU;ES
+LEZG;medium_airport;Zaragoza Airport;EU;ES
+LEZL;medium_airport;Sevilla Airport;EU;ES
+LFAC;medium_airport;Calais-Dunkerque Airport;EU;FR
+LFAG;medium_airport;Aérodrome de Péronne Saint-Quentin;EU;FR
+LFAT;medium_airport;Le Touquet-Côte d'Opale Airport;EU;FR
+LFAV;medium_airport;Valenciennes-Denain Airfield;EU;FR
+LFAY;medium_airport;Aérodrome d'Amiens-Glisy;EU;FR
+LFBA;medium_airport;Agen-La Garenne Airport;EU;FR
+LFBC;medium_airport;Cazaux (BA 120) Air Base;EU;FR
+LFBD;large_airport;Bordeaux-Mérignac Airport;EU;FR
+LFBE;medium_airport;Bergerac-Roumanière Airport;EU;FR
+LFBF;medium_airport;Toulouse-Francazal (BA 101) Air Base;EU;FR
+LFBG;medium_airport;Cognac-Châteaubernard (BA 709) Air Base;EU;FR
+LFBH;medium_airport;La Rochelle-Île de Ré Airport;EU;FR
+LFBI;medium_airport;Poitiers-Biard Airport;EU;FR
+LFBK;medium_airport;Montluçon-Guéret Airport;EU;FR
+LFBL;medium_airport;Limoges Airport;EU;FR
+LFBM;medium_airport;Mont-de-Marsan (BA 118) Air Base;EU;FR
+LFBN;medium_airport;Niort-Souché Airport;EU;FR
+LFBO;large_airport;Toulouse-Blagnac Airport;EU;FR
+LFBP;medium_airport;Pau Pyrénées Airport;EU;FR
+LFBT;medium_airport;Tarbes-Lourdes-Pyrénées Airport;EU;FR
+LFBU;medium_airport;Angoulême-Brie-Champniers Airport;EU;FR
+LFBX;medium_airport;Périgueux-Bassillac Airport;EU;FR
+LFBZ;medium_airport;Biarritz-Anglet-Bayonne Airport;EU;FR
+LFCC;medium_airport;Aérodrome de Cahors-Lalbenque;EU;FR
+LFCG;medium_airport;Aérodrome de Saint-Girons - Antichan;EU;FR
+LFCH;medium_airport;Aérodrome d'Arcachon-La Teste-de-Buch;EU;FR
+LFCI;medium_airport;Albi-Le Séquestre Airport;EU;FR
+LFCK;medium_airport;Castres-Mazamet Airport;EU;FR
+LFCR;medium_airport;Rodez-Marcillac Airport;EU;FR
+LFCY;medium_airport;Royan-Médis Airport;EU;FR
+LFDH;medium_airport;Auch-Lamothe Airport;EU;FR
+LFDI;medium_airport;Libourne-Artigues-de-Lussac Airport;EU;FR
+LFDN;medium_airport;Rochefort-Saint-Agnant (BA 721) Airport;EU;FR
+LFEY;medium_airport;Île d'Yeu Airport;EU;FR
+LFGA;medium_airport;Colmar-Houssen Airport;EU;FR
+LFGJ;medium_airport;Dole-Tavaux Airport;EU;FR
+LFGW;medium_airport;Verdun-Le Rozelier Airfield;EU;FR
+LFHO;medium_airport;Aubenas-Ardèche Méridional Airport;EU;FR
+LFHP;medium_airport;Le Puy-Loudes Airfield;EU;FR
+LFJL;medium_airport;Metz-Nancy-Lorraine Airport;EU;FR
+LFJR;medium_airport;Angers-Loire Airport;EU;FR
+LFKB;medium_airport;Bastia-Poretta Airport;EU;FR
+LFKC;medium_airport;Calvi-Sainte-Catherine Airport;EU;FR
+LFKF;medium_airport;Figari Sud-Corse Airport;EU;FR
+LFKJ;medium_airport;Ajaccio-Napoléon Bonaparte Airport;EU;FR
+LFKS;medium_airport;Solenzara (BA 126) Air Base;EU;FR
+LFLA;medium_airport;Auxerre-Branches Airport;EU;FR
+LFLB;medium_airport;Chambéry-Savoie Airport;EU;FR
+LFLC;medium_airport;Clermont-Ferrand Auvergne Airport;EU;FR
+LFLD;medium_airport;Bourges Airport;EU;FR
+LFLH;medium_airport;Chalon-Champforgeuil Airfield;EU;FR
+LFLI;medium_airport;Annemasse Airfield;EU;FR
+LFLL;large_airport;Lyon Saint-Exupéry Airport;EU;FR
+LFLM;medium_airport;Aérodrome de Mâcon-Charnay;EU;FR
+LFLN;medium_airport;Saint-Yan Airport;EU;FR
+LFLO;medium_airport;Roanne-Renaison Airport;EU;FR
+LFLP;medium_airport;Annecy-Haute-Savoie-Mont Blanc Airport;EU;FR
+LFLS;medium_airport;Grenoble-Isère Airport;EU;FR
+LFLU;medium_airport;Valence-Chabeuil Airport;EU;FR
+LFLV;medium_airport;Vichy-Charmeil Airport;EU;FR
+LFLW;medium_airport;Aurillac Airport;EU;FR
+LFLX;medium_airport;"Châteauroux-Déols ""Marcel Dassault"" Airport";EU;FR
+LFLY;medium_airport;Lyon-Bron Airport;EU;FR
+LFMC;medium_airport;Le Luc-Le Cannet Airport;EU;FR
+LFMD;medium_airport;Cannes-Mandelieu Airport;EU;FR
+LFMH;medium_airport;Saint-Étienne-Bouthéon Airport;EU;FR
+LFMI;medium_airport;Istres Le Tubé Air Base;EU;FR
+LFMK;medium_airport;Carcassonne Airport;EU;FR
+LFML;large_airport;Marseille Provence Airport;EU;FR
+LFMN;large_airport;Nice-Côte d'Azur Airport;EU;FR
+LFMO;medium_airport;Orange-Caritat (BA 115) Air Base;EU;FR
+LFMP;medium_airport;Perpignan-Rivesaltes (Llabanère) Airport;EU;FR
+LFMQ;medium_airport;Le Castellet Airport;EU;FR
+LFMS;medium_airport;Aérodrome d'Alès Cévennes;EU;FR
+LFMT;medium_airport;Montpellier-Méditerranée Airport;EU;FR
+LFMU;medium_airport;Béziers-Vias Airport;EU;FR
+LFMV;medium_airport;Avignon-Caumont Airport;EU;FR
+LFMY;medium_airport;Salon-de-Provence (BA 701) Air Base;EU;FR
+LFNB;medium_airport;Mende-Brenoux Airfield;EU;FR
+LFOA;medium_airport;Avord (BA 702) Air Base;EU;FR
+LFOB;medium_airport;Paris Beauvais Tillé Airport;EU;FR
+LFOC;medium_airport;Châteaudun (BA 279) Air Base;EU;FR
+LFOE;medium_airport;Évreux-Fauville (BA 105) Air Base;EU;FR
+LFOH;medium_airport;Le Havre-Octeville Airport;EU;FR
+LFOI;medium_airport;Abbeville;EU;FR
+LFOJ;medium_airport;Orléans-Bricy (BA 123) Air Base;EU;FR
+LFOK;medium_airport;Châlons-Vatry Airport;EU;FR
+LFOP;medium_airport;Rouen Vallée de Seine Airport;EU;FR
+LFOT;medium_airport;Tours-Val-de-Loire Airport;EU;FR
+LFOU;medium_airport;Cholet Le Pontreau Airport;EU;FR
+LFOV;medium_airport;Laval-Entrammes Airport;EU;FR
+LFPB;medium_airport;Paris-Le Bourget Airport;EU;FR
+LFPC;medium_airport;Creil Air Base;EU;FR
+LFPG;large_airport;Charles de Gaulle International Airport;EU;FR
+LFPM;medium_airport;Melun-Villaroche Air Base;EU;FR
+LFPN;medium_airport;Toussus-le-Noble Airport;EU;FR
+LFPO;large_airport;Paris-Orly Airport;EU;FR
+LFPT;medium_airport;Aérodrome de Pontoise - Cormeilles en Vexin;EU;FR
+LFPV;medium_airport;Vélizy-Villacoublay Air Base;EU;FR
+LFQB;medium_airport;Troyes-Barberey Airport;EU;FR
+LFQE;medium_airport;Lieutenant Étienne Mantoux Air Base;EU;FR
+LFQG;medium_airport;Nevers-Fourchambault Airport;EU;FR
+LFQJ;medium_airport;Maubeuge-Élesmes Airfield;EU;FR
+LFQP;medium_airport;Phalsbourg-Bourscheid Air Base;EU;FR
+LFQQ;medium_airport;Lille-Lesquin Airport;EU;FR
+LFQT;medium_airport;Merville-Calonne Airport;EU;FR
+LFQV;medium_airport;Charleville-Mézières Ardennes-Etienne Riché Airfield;EU;FR
+LFQW;medium_airport;Aérodrome de Vesoul-Frotey;EU;FR
+LFRB;medium_airport;Brest Bretagne Airport;EU;FR
+LFRC;medium_airport;Cherbourg-Maupertus Airport;EU;FR
+LFRD;medium_airport;Dinard-Pleurtuit-Saint-Malo Airport;EU;FR
+LFRE;medium_airport;La Baule-Escoublac Airport;EU;FR
+LFRF;medium_airport;Granville Airport;EU;FR
+LFRG;medium_airport;Deauville-Saint-Gatien Airport;EU;FR
+LFRH;medium_airport;Lorient South Brittany (Bretagne Sud) Airport;EU;FR
+LFRI;medium_airport;La Roche-sur-Yon Airport;EU;FR
+LFRJ;medium_airport;Landivisiau Air Base;EU;FR
+LFRK;medium_airport;Caen-Carpiquet Airport;EU;FR
+LFRL;medium_airport;Lanvéoc-Poulmic Air Base;EU;FR
+LFRM;medium_airport;Le Mans-Arnage Airport;EU;FR
+LFRN;medium_airport;Rennes-Saint-Jacques Airport;EU;FR
+LFRO;medium_airport;Lannion-Côte de Granit Airport;EU;FR
+LFRQ;medium_airport;Quimper-Cornouaille Airport;EU;FR
+LFRS;medium_airport;Nantes Atlantique Airport;EU;FR
+LFRT;medium_airport;Saint-Brieuc-Armor Airport;EU;FR
+LFRU;medium_airport;Morlaix-Ploujean Airport;EU;FR
+LFRV;medium_airport;Vannes-Meucon Airport;EU;FR
+LFRZ;medium_airport;Saint-Nazaire-Montoir Airport;EU;FR
+LFSB;large_airport;EuroAirport Basel-Mulhouse-Freiburg Airport;EU;FR
+LFSD;medium_airport;Dijon-Bourgogne Airport;EU;FR
+LFSG;medium_airport;Épinal-Mirecourt Airport;EU;FR
+LFSI;medium_airport;Saint-Dizier – Robinson Air Base;EU;FR
+LFSL;medium_airport;Brive-Souillac;EU;FR
+LFSM;medium_airport;Montbéliard-Courcelles Airfield;EU;FR
+LFSN;medium_airport;Nancy-Essey Airport;EU;FR
+LFSO;medium_airport;Nancy-Ochey (BA 133) Air Base;EU;FR
+LFST;medium_airport;Strasbourg Airport;EU;FR
+LFSX;medium_airport;Luxeuil-Saint-Sauveur (BA 116) Air Base;EU;FR
+LFTH;medium_airport;Toulon-Hyères Airport;EU;FR
+LFTW;medium_airport;Nîmes-Arles-Camargue Airport;EU;FR
+LFXA;medium_airport;Ambérieu Air Base (BA 278);EU;FR
+LGAD;medium_airport;Andravida Air Base;EU;GR
+LGAL;medium_airport;Alexandroupoli Democritus Airport;EU;GR
+LGAV;large_airport;Athens Eleftherios Venizelos International Airport;EU;GR
+LGBL;medium_airport;Nea Anchialos National Airport;EU;GR
+LGEL;medium_airport;Elefsis Airport;EU;GR
+LGHI;medium_airport;Chios Island National Airport;EU;GR
+LGIO;medium_airport;Ioannina Airport;EU;GR
+LGIR;large_airport;Heraklion International Nikos Kazantzakis Airport;EU;GR
+LGKF;medium_airport;Kefallinia Airport;EU;GR
+LGKL;medium_airport;Kalamata Airport;EU;GR
+LGKO;medium_airport;Kos Airport;EU;GR
+LGKP;medium_airport;Karpathos Airport;EU;GR
+LGKR;medium_airport;Ioannis Kapodistrias International Airport;EU;GR
+LGKV;medium_airport;Kavala Alexander the Great International Airport;EU;GR
+LGKZ;medium_airport;Kozani State Airport Filippos;EU;GR
+LGMK;medium_airport;Mikonos Airport;EU;GR
+LGMT;medium_airport;Mytilene International Airport;EU;GR
+LGPZ;medium_airport;Aktion National Airport;EU;GR
+LGRP;medium_airport;Diagoras Airport;EU;GR
+LGRX;medium_airport;Patras Araxos Agamemnon Airport;EU;GR
+LGSA;medium_airport;Chania International Airport;EU;GR
+LGSK;medium_airport;Skiathos Island National Airport;EU;GR
+LGSM;medium_airport;Samos Airport;EU;GR
+LGSR;medium_airport;Santorini Airport;EU;GR
+LGST;medium_airport;Sitia Airport;EU;GR
+LGTG;medium_airport;Tanagra Air Base;EU;GR
+LGTS;large_airport;Thessaloniki Macedonia International Airport;EU;GR
+LGZA;medium_airport;"Zakynthos International Airport ""Dionysios Solomos""";EU;GR
+LHBP;large_airport;Budapest Liszt Ferenc International Airport;EU;HU
+LHDC;medium_airport;Debrecen International Airport;EU;HU
+LHKE;medium_airport;Kecskemét Air Base;EU;HU
+LHPP;medium_airport;Pécs-Pogány Airport;EU;HU
+LHPR;medium_airport;Győr-Pér International Airport;EU;HU
+LHSM;medium_airport;Hévíz–Balaton Airport;EU;HU
+LHSN;medium_airport;Szolnok Air Base;EU;HU
+LHTA;medium_airport;Taszár Air Base;EU;HU
+LHTL;medium_airport;Tököl Airport;EU;HU
+LIBA;medium_airport;Amendola Air Base;EU;IT
+LIBC;medium_airport;Crotone Airport;EU;IT
+LIBD;large_airport;Bari Karol Wojtyła Airport;EU;IT
+LIBF;medium_airport;"Foggia ""Gino Lisa"" Airport";EU;IT
+LIBG;medium_airport;"Taranto-Grottaglie ""Marcello Arlotta"" Airport";EU;IT
+LIBN;medium_airport;Lecce Galatina Air Base;EU;IT
+LIBP;medium_airport;Abruzzo Airport;EU;IT
+LIBR;large_airport;Brindisi Airport;EU;IT
+LIBV;medium_airport;Gioia Del Colle Air Base;EU;IT
+LICA;medium_airport;Lamezia Terme Airport;EU;IT
+LICB;medium_airport;Comiso Airport;EU;IT
+LICC;large_airport;Catania-Fontanarossa Airport;EU;IT
+LICD;medium_airport;Lampedusa Airport;EU;IT
+LICG;medium_airport;Pantelleria Airport;EU;IT
+LICJ;large_airport;Falcone–Borsellino Airport;EU;IT
+LICP;medium_airport;Palermo-Boccadifalco Airport;EU;IT
+LICR;medium_airport;Reggio Calabria Airport;EU;IT
+LICT;medium_airport;Vincenzo Florio Airport Trapani-Birgi;EU;IT
+LICZ;medium_airport;Sigonella Navy Air Base;EU;IT
+LIDT;medium_airport;Trento-Mattarello Airport;EU;IT
+LIEA;medium_airport;Alghero-Fertilia Airport;EU;IT
+LIED;medium_airport;Decimomannu Air Base;EU;IT
+LIEE;large_airport;Cagliari Elmas Airport;EU;IT
+LIEO;medium_airport;Olbia Costa Smeralda Airport;EU;IT
+LIET;medium_airport;Tortolì Airport;EU;IT
+LILA;medium_airport;Alessandria Airport;EU;IT
+LILE;medium_airport;Biella-Cerrione Airport;EU;IT
+LILI;medium_airport;Vercelli Airport;EU;IT
+LILM;medium_airport;Casale Monferrato Airport;EU;IT
+LILN;medium_airport;Varese-Venegono Airport;EU;IT
+LIMA;medium_airport;Torino-Aeritalia Airport;EU;IT
+LIMC;large_airport;Malpensa International Airport;EU;IT
+LIME;large_airport;Milan Bergamo Airport;EU;IT
+LIMF;large_airport;Turin Airport;EU;IT
+LIMG;medium_airport;Villanova D'Albenga International Airport;EU;IT
+LIMJ;medium_airport;Genoa Cristoforo Colombo Airport;EU;IT
+LIML;medium_airport;Milano Linate Airport;EU;IT
+LIMN;medium_airport;Cameri Air Base [MIL];EU;IT
+LIMP;medium_airport;Parma Airport;EU;IT
+LIMR;medium_airport;Novi Ligure Airport;EU;IT
+LIMS;medium_airport;Piacenza San Damiano Air Base;EU;IT
+LIMW;medium_airport;Aosta Airport;EU;IT
+LIMZ;medium_airport;Cuneo International Airport;EU;IT
+LIPA;medium_airport;Aviano Air Base;EU;IT
+LIPB;medium_airport;Bolzano Airport;EU;IT
+LIPC;medium_airport;Cervia Air Base;EU;IT
+LIPE;large_airport;Bologna Guglielmo Marconi Airport;EU;IT
+LIPH;medium_airport;Treviso-Sant'Angelo Airport;EU;IT
+LIPI;medium_airport;Rivolto Air Base;EU;IT
+LIPK;medium_airport;Forlì Airport;EU;IT
+LIPL;medium_airport;Ghedi Air Base;EU;IT
+LIPO;medium_airport;Brescia Airport;EU;IT
+LIPQ;medium_airport;Trieste–Friuli Venezia Giulia Airport;EU;IT
+LIPR;medium_airport;Federico Fellini International Airport;EU;IT
+LIPS;medium_airport;Istrana Air Base;EU;IT
+LIPU;medium_airport;Padova Airfield;EU;IT
+LIPX;large_airport;Verona-Villafranca Valerio Catullo Airport;EU;IT
+LIPY;medium_airport;Marche Airport;EU;IT
+LIPZ;large_airport;Venice Marco Polo Airport;EU;IT
+LIQS;medium_airport;Siena-Ampugnano Airport;EU;IT
+LIQW;medium_airport;Sarzana-Luni Air Base;EU;IT
+LIRA;medium_airport;Ciampino–G. B. Pastine International Airport;EU;IT
+LIRE;medium_airport;Pratica Di Mare Air Base;EU;IT
+LIRF;large_airport;Rome–Fiumicino Leonardo da Vinci International Airport;EU;IT
+LIRG;medium_airport;Guidonia Air Base;EU;IT
+LIRI;medium_airport;Salerno Costa d'Amalfi Airport;EU;IT
+LIRJ;medium_airport;Marina Di Campo Airport;EU;IT
+LIRL;medium_airport;Latina Air Base;EU;IT
+LIRM;medium_airport;Grazzanise Air Base;EU;IT
+LIRN;large_airport;Naples International Airport;EU;IT
+LIRP;large_airport;Pisa International Airport;EU;IT
+LIRQ;medium_airport;Peretola Airport;EU;IT
+LIRS;medium_airport;Grosseto Air Base;EU;IT
+LIRU;medium_airport;Rome Urbe Airport;EU;IT
+LIRV;medium_airport;Viterbo Airport;EU;IT
+LIRZ;medium_airport;Perugia San Francesco d'Assisi – Umbria International Airport;EU;IT
+LJCE;medium_airport;Cerklje Air Base;EU;SI
+LJLJ;large_airport;Ljubljana Jože Pučnik Airport;EU;SI
+LJMB;medium_airport;Maribor Airport;EU;SI
+LJPZ;medium_airport;Portorož Airport;EU;SI
+LKCV;medium_airport;Čáslav Air Base;EU;CZ
+LKKB;medium_airport;Kbely Air Base;EU;CZ
+LKKU;medium_airport;Kunovice Airport;EU;CZ
+LKKV;medium_airport;Karlovy Vary International Airport;EU;CZ
+LKLN;medium_airport;Plzeň-Líně Airport;EU;CZ
+LKMT;medium_airport;Ostrava Leos Janáček Airport;EU;CZ
+LKNA;medium_airport;Náměšť Air Base;EU;CZ
+LKPD;medium_airport;Pardubice Airport;EU;CZ
+LKPO;medium_airport;Přerov Air Base;EU;CZ
+LKPR;large_airport;Václav Havel Airport Prague;EU;CZ
+LKTB;medium_airport;Brno-Tuřany Airport;EU;CZ
+LKVO;medium_airport;Vodochody Airport;EU;CZ
+LMML;large_airport;Malta International Airport;EU;MT
+LOAN;medium_airport;Wiener Neustadt East Airport;EU;AT
+LOWG;medium_airport;Graz Airport;EU;AT
+LOWI;medium_airport;Innsbruck Airport;EU;AT
+LOWK;medium_airport;Klagenfurt Airport;EU;AT
+LOWL;medium_airport;Linz-Hörsching Airport / Vogler Air Base;EU;AT
+LOWS;medium_airport;Salzburg Airport;EU;AT
+LOWW;large_airport;Vienna International Airport;EU;AT
+LOXZ;medium_airport;Hinterstoisser Air Base;EU;AT
+LPAR;medium_airport;Alverca Air Base;EU;PT
+LPAZ;medium_airport;Santa Maria Airport;EU;PT
+LPBG;medium_airport;Bragança Airport;EU;PT
+LPBJ;medium_airport;Beja Airport / Airbase;EU;PT
+LPBR;medium_airport;Braga Municipal Aerodrome;EU;PT
+LPCB;medium_airport;Aerodromo de Castelo Branco;EU;PT
+LPCO;medium_airport;Aerodromo Municipal de Coimbra;EU;PT
+LPCS;medium_airport;Cascais Airport;EU;PT
+LPEV;medium_airport;Évora Airfield;EU;PT
+LPFL;medium_airport;Flores Airport;EU;PT
+LPFR;large_airport;Faro Airport;EU;PT
+LPGR;medium_airport;Graciosa Airport;EU;PT
+LPHR;medium_airport;Horta Airport;EU;PT
+LPLA;medium_airport;Lajes Airport;EU;PT
+LPMA;medium_airport;Madeira International Airport Cristiano Ronaldo;EU;PT
+LPMR;medium_airport;Monte Real Air Base;EU;PT
+LPMT;medium_airport;Montijo Air Base;EU;PT
+LPOV;medium_airport;Ovar Air Base;EU;PT
+LPPD;large_airport;João Paulo II Airport;EU;PT
+LPPI;medium_airport;Pico Airport;EU;PT
+LPPM;medium_airport;Portimão Airport;EU;PT
+LPPR;large_airport;Francisco de Sá Carneiro Airport;EU;PT
+LPPS;medium_airport;Porto Santo Airport;EU;PT
+LPPT;large_airport;Humberto Delgado Airport (Lisbon Portela Airport);EU;PT
+LPSJ;medium_airport;São Jorge Airport;EU;PT
+LPSO;medium_airport;Aeródromo Municipal de Ponte de Sor;EU;PT
+LPST;medium_airport;Sintra Air Base;EU;PT
+LPTN;medium_airport;Tancos Airbase;EU;PT
+LPVL;medium_airport;Vilar de Luz Airfield;EU;PT
+LPVR;medium_airport;Vila Real Airport;EU;PT
+LPVZ;medium_airport;Aerodromo Goncalves Lobato (Viseu Airport);EU;PT
+LQBK;medium_airport;Banja Luka International Airport;EU;BA
+LQMO;medium_airport;Mostar International Airport;EU;BA
+LQSA;medium_airport;Sarajevo International Airport;EU;BA
+LQTZ;medium_airport;Tuzla International Airport;EU;BA
+LR79;medium_airport;Ianca Air Base;EU;RO
+LR80;medium_airport;Feteşti Air Base;EU;RO
+LR82;medium_airport;Boboc Air Base;EU;RO
+LRAR;medium_airport;Arad International Airport;EU;RO
+LRBC;medium_airport;Bacău Airport;EU;RO
+LRBM;medium_airport;Maramureș International Airport;EU;RO
+LRBS;medium_airport;Băneasa International Airport;EU;RO
+LRCK;medium_airport;Mihail Kogălniceanu International Airport;EU;RO
+LRCL;medium_airport;Cluj-Napoca International Airport;EU;RO
+LRCS;medium_airport;Caransebeş Airport;EU;RO
+LRCT;medium_airport;Câmpia Turzii Air Base;EU;RO
+LRCV;medium_airport;Craiova Airport;EU;RO
+LRIA;medium_airport;Iaşi Airport;EU;RO
+LROD;medium_airport;Oradea International Airport;EU;RO
+LROP;large_airport;Henri Coandă International Airport;EU;RO
+LROV;medium_airport;Brașov-Ghimbav International Airport (U.C.);EU;RO
+LRSB;medium_airport;Sibiu International Airport;EU;RO
+LRSM;medium_airport;Satu Mare Airport;EU;RO
+LRSV;medium_airport;Suceava Stefan cel Mare Airport;EU;RO
+LRTC;medium_airport;Tulcea Danube Delta Airport;EU;RO
+LRTM;medium_airport;Transilvania Târgu Mureş International Airport;EU;RO
+LRTR;medium_airport;Timişoara Traian Vuia Airport;EU;RO
+LSGC;medium_airport;Les Eplatures Airport;EU;CH
+LSGG;large_airport;Geneva Cointrin International Airport;EU;CH
+LSGS;medium_airport;Sion Airport;EU;CH
+LSMA;medium_airport;Alpnach Air Base;EU;CH
+LSMD;medium_airport;Dübendorf Air Base;EU;CH
+LSME;medium_airport;Emmen Air Base;EU;CH
+LSMP;medium_airport;Payerne Air Base;EU;CH
+LSZA;medium_airport;Lugano Airport;EU;CH
+LSZB;medium_airport;Bern-Belp Airport;EU;CH
+LSZG;medium_airport;Grenchen Airport;EU;CH
+LSZH;large_airport;Zürich Airport;EU;CH
+LSZR;medium_airport;St Gallen Altenrhein Airport;EU;CH
+LSZS;medium_airport;Samedan Airport;EU;CH
+LTBA;large_airport;İstanbul Atatürk Airport;EU;TR
+LTBU;medium_airport;Tekirdağ Çorlu Airport;EU;TR
+LTFM;large_airport;İstanbul Airport;EU;TR
+LUBL;medium_airport;Bălți International Airport;EU;MD
+LUBM;medium_airport;Mărculeşti International Airport;EU;MD
+LUCH;medium_airport;Cahul International Airport;EU;MD
+LUKK;medium_airport;Chişinău International Airport;EU;MD
+LUTR;medium_airport;Tiraspol Airport;EU;MD
+LWOH;medium_airport;Ohrid St. Paul the Apostle Airport;EU;MK
+LWSK;large_airport;Skopje International Airport;EU;MK
+LXGB;medium_airport;Gibraltar Airport;EU;GI
+LY88;medium_airport;Ponikve Airport;EU;RS
+LYBE;large_airport;Belgrade Nikola Tesla Airport;EU;RS
+LYBT;medium_airport;Batajnica Air Base;EU;RS
+LYKV;medium_airport;Morava Airport;EU;RS
+LYNI;medium_airport;Nis Airport;EU;RS
+LYPG;large_airport;Podgorica Airport / Podgorica Golubovci Airbase;EU;ME
+LYTV;medium_airport;Tivat Airport;EU;ME
+LZIB;large_airport;M. R. Štefánik Airport;EU;SK
+LZKZ;medium_airport;Košice Airport;EU;SK
+LZMC;medium_airport;Kuchyňa Air Base;EU;SK
+LZPP;medium_airport;Piešťany Airport;EU;SK
+LZSL;medium_airport;Sliač Airport;EU;SK
+LZTT;medium_airport;Poprad-Tatry Airport;EU;SK
+LZZI;medium_airport;Žilina Airport;EU;SK
+RU-0001;medium_airport;Levashovo Air Base;EU;RU
+RU-0010;medium_airport;Balashov Air Base;EU;RU
+RU-0014;medium_airport;Borisoglebsk Air Base;EU;RU
+RU-0015;medium_airport;Khotilovo Air Base;EU;RU
+RU-0016;large_airport;Lipetsk Air Base;EU;RU
+RU-0018;medium_airport;Buturlinovka Air Base;EU;RU
+RU-0028;medium_airport;Kaliningrad Chkalovsk Naval Air Base;EU;RU
+RU-0035;medium_airport;Grozny Airport;EU;RU
+RU-0043;medium_airport;Mius Airport;EU;RU
+RU-0060;medium_airport;Chernyakhovsk Naval Air Base;EU;RU
+RU-0064;medium_airport;Ostrov Naval Air Base;EU;RU
+RU-0065;medium_airport;Pribylovo Naval Air Base;EU;RU
+RU-0089;medium_airport;Krymsk Air Base;EU;RU
+RU-0090;medium_airport;Krasnodar Central Air Base;EU;RU
+RU-0098;medium_airport;Oktyabrskiy Air Base;EU;RU
+RU-0128;medium_airport;Budyonnovsk Air Base;EU;RU
+RU-0152;medium_airport;Mozdok Air Base;EU;RU
+RU-0189;medium_airport;Kostomuksha Airport;EU;RU
+RU-0211;medium_airport;Taganrog Tsentralny Air Base;EU;RU
+RU-0217;medium_airport;Sormovo Airfield;EU;RU
+RU-0240;medium_airport;Seshcha Air Base;EU;RU
+RU-0282;medium_airport;Millerovo Air Base;EU;RU
+RU-0327;medium_airport;Vozdvizhenka Air Base;EU;RU
+RU-0372;medium_airport;Rostov-on-Don Central Air Base;EU;RU
+RU-0764;medium_airport;Kubinka Air Base;EU;RU
+RU-3686;medium_airport;Oreshkovo;EU;RU
+RU-4339;medium_airport;Tambov Air Base;EU;RU
+RU-4464;medium_airport;Olenya Air Base;EU;RU
+RU-4609;medium_airport;Shatalovo Air Base;EU;RU
+RU-5376;medium_airport;Smuravyovo Air Base;EU;RU
+RU-5672;medium_airport;Ivanovo North Air Base;EU;RU
+RU-6558;medium_airport;Lyambir Air Base;EU;RU
+RU-6687;medium_airport;Michurinsk Air Base;EU;RU
+RU-8363;medium_airport;Voronezh Baltimor Air Base;EU;RU
+RU-8709;medium_airport;Dorokhovo Air Base;EU;RU
+RU-9345;medium_airport;Krechevitsy Air Base;EU;RU
+RU-9937;medium_airport;Rzhev Air Base;EU;RU
+RU-9942;medium_airport;Shaykovka Air Base;EU;RU
+TR-0028;medium_airport;Keşan Air Base;EU;TR
+UA-0005;medium_airport;Nizhyn Air Base;EU;UA
+UA-0010;medium_airport;Oktyabrskoe Air Base;EU;UA
+UA-0012;medium_airport;Kirovskoe Air Base;EU;UA
+UA-0020;medium_airport;Melitopol Air Base;EU;UA
+UA-0022;medium_airport;Kacha Air Base;EU;UA
+UA-0025;medium_airport;Bila Tserkva Air Base;EU;UA
+UA-0028;medium_airport;Zhovtneve Air Base;EU;UA
+UATG;medium_airport;Atyrau International Airport;EU;KZ
+UEMA;medium_airport;Moma Airport;EU;RU
+UEMO;medium_airport;Olyokminsk Airport;EU;RU
+UEMT;medium_airport;Ust-Nera Airport;EU;RU
+UERS;medium_airport;Saskylakh Airport;EU;RU
+UESG;medium_airport;Belaya Gora Airport;EU;RU
+UESK;medium_airport;Srednekolymsk Airport;EU;RU
+UHMD;medium_airport;Provideniya Bay Airport;EU;RU
+UHMF;medium_airport;Omsukchan Airport;EU;RU
+UHMP;medium_airport;Pevek Airport;EU;RU
+UHMW;medium_airport;Severo-Evensk Airport;EU;RU
+UHPL;medium_airport;Palana Airport;EU;RU
+UHSS;medium_airport;Yuzhno-Sakhalinsk Airport;EU;RU
+UHWW;large_airport;Vladivostok International Airport;EU;RU
+UIAA;medium_airport;Chita-Kadala International Airport;EU;RU
+UIII;medium_airport;Irkutsk International Airport;EU;RU
+UIUU;medium_airport;Baikal International Airport;EU;RU
+UKBB;large_airport;Boryspil International Airport;EU;UA
+UKCM;medium_airport;Mariupol International Airport;EU;UA
+UKDD;medium_airport;Dnipro International Airport;EU;UA
+UKDE;medium_airport;Zaporizhzhia International Airport;EU;UA
+UKDR;medium_airport;Kryvyi Rih International Airport;EU;UA
+UKFB;medium_airport;Sevastopol International Airport / Belbek Air Base;EU;UA
+UKFF;medium_airport;Simferopol International Airport;EU;UA
+UKFG;medium_airport;Gvardeyskoe Air Base;EU;UA
+UKFI;medium_airport;Saky Air Base;EU;UA
+UKFY;medium_airport;Dzhankoy Airport;EU;UA
+UKHH;medium_airport;Kharkiv International Airport;EU;UA
+UKKE;medium_airport;Cherkasy International Airport;EU;UA
+UKKK;medium_airport;Ihor Sikorsky Kyiv International Airport (Zhuliany);EU;UA
+UKKM;medium_airport;Hostomel Airport;EU;UA
+UKKO;medium_airport;Ozerne Air Base;EU;UA
+UKLH;medium_airport;Khmelnytskyi Airport;EU;UA
+UKLI;medium_airport;Ivano-Frankivsk International Airport;EU;UA
+UKLL;large_airport;Lviv International Airport;EU;UA
+UKLN;medium_airport;Chernivtsi International Airport;EU;UA
+UKLR;medium_airport;Rivne International Airport;EU;UA
+UKLU;medium_airport;Uzhhorod International Airport;EU;UA
+UKOH;medium_airport;Kherson International Airport;EU;UA
+UKON;medium_airport;Mykolaiv International Airport;EU;UA
+UKOO;medium_airport;Odessa International Airport;EU;UA
+UKWW;medium_airport;Vinnytsia/Gavyryshivka International Airport;EU;UA
+ULAA;medium_airport;Talagi Airport;EU;RU
+ULAH;medium_airport;Vaskovo Airport;EU;RU
+ULAK;medium_airport;Severomorsk-1 Naval Air Base;EU;RU
+ULBC;medium_airport;Cherepovets Airport;EU;RU
+ULKK;medium_airport;Kotlas Airport;EU;RU
+ULLI;large_airport;Pulkovo Airport;EU;RU
+ULLP;medium_airport;Pushkin Airport;EU;RU
+ULMM;medium_airport;Murmansk Airport;EU;RU
+ULNR;medium_airport;Staraya Russa Air Base;EU;RU
+ULOO;medium_airport;Pskov Airport;EU;RU
+ULPB;medium_airport;Petrozavodsk Airport;EU;RU
+ULPP;medium_airport;Peski Airport;EU;RU
+ULWW;medium_airport;Vologda Airport;EU;RU
+UMBB;medium_airport;Brest Airport;EU;BY
+UMGG;medium_airport;Gomel Airport;EU;BY
+UMII;medium_airport;Vitebsk Vostochny Airport;EU;BY
+UMKK;medium_airport;Khrabrovo Airport;EU;RU
+UMMA;medium_airport;Baranavichi Air Base;EU;BY
+UMMG;medium_airport;Hrodna Airport;EU;BY
+UMMS;large_airport;Minsk National Airport;EU;BY
+UMNB;medium_airport;Babruisk Air Base;EU;BY
+UMOO;medium_airport;Mogilev Airport;EU;BY
+UNAA;medium_airport;Abakan International Airport;EU;RU
+UNBG;medium_airport;Gorno-Altaysk Airport;EU;RU
+UNIP;medium_airport;Podkamennaya Tunguska Airport;EU;RU
+UNKL;large_airport;Krasnoyarsk International Airport;EU;RU
+UNKS;medium_airport;Achinsk Airport;EU;RU
+UNNT;large_airport;Novosibirsk Tolmachevo Airport;EU;RU
+UNWW;medium_airport;Spichenkovo Airport;EU;RU
+UODN;medium_airport;Nagurskoye;EU;RU
+URKA;medium_airport;Anapa Vityazevo Airport;EU;RU
+URKE;medium_airport;Yeysk Airport;EU;RU
+URKG;medium_airport;Gelendzhik Airport;EU;RU
+URKH;medium_airport;Khanskaya Air Base;EU;RU
+URKK;medium_airport;Krasnodar Pashkovsky International Airport;EU;RU
+URMG;medium_airport;Khankala Air Base;EU;RU
+URML;medium_airport;Makhachkala Uytash International Airport;EU;RU
+URMM;medium_airport;Mineralnyye Vody Airport;EU;RU
+URMN;medium_airport;Nalchik Airport;EU;RU
+URMO;medium_airport;Vladikavkaz Beslan International Airport;EU;RU
+URMT;medium_airport;Stavropol Shpakovskoye Airport;EU;RU
+URRP;large_airport;Platov International Airport;EU;RU
+URRT;medium_airport;Taganrog Yuzhny Airport;EU;RU
+URSS;large_airport;Sochi International Airport;EU;RU
+URWI;medium_airport;Elista Airport;EU;RU
+URWW;medium_airport;Volgograd International Airport;EU;RU
+USCC;medium_airport;Chelyabinsk Balandino Airport;EU;RU
+USCM;medium_airport;Magnitogorsk International Airport;EU;RU
+USHN;medium_airport;Nyagan Airport;EU;RU
+USHY;medium_airport;Beloyarskiy Airport;EU;RU
+USII;medium_airport;Izhevsk Airport;EU;RU
+USKK;medium_airport;Pobedilovo Airport;EU;RU
+USPP;medium_airport;Perm International Airport;EU;RU
+UUBA;medium_airport;Kostroma Sokerkino Airport;EU;RU
+UUBC;medium_airport;Grabtsevo Airport;EU;RU
+UUBD;medium_airport;Dyagilevo Air Base;EU;RU
+UUBI;medium_airport;Ivanovo South Airport;EU;RU
+UUBK;medium_airport;Staroselye Airport;EU;RU
+UUBL;medium_airport;Semyazino Airport;EU;RU
+UUBM;medium_airport;Myachkovo Airport;EU;RU
+UUBP;medium_airport;Bryansk Airport;EU;RU
+UUBW;large_airport;Zhukovsky International Airport;EU;RU
+UUDD;large_airport;Domodedovo International Airport;EU;RU
+UUEE;large_airport;Sheremetyevo International Airport;EU;RU
+UUEM;medium_airport;Migalovo Air Base;EU;RU
+UUMO;medium_airport;Ostafyevo International Airport;EU;RU
+UUMT;medium_airport;Tretyakovo Airport;EU;RU
+UUMU;medium_airport;Chkalovskiy Air Base;EU;RU
+UUOB;medium_airport;Belgorod International Airport;EU;RU
+UUOK;medium_airport;Kursk East Airport;EU;RU
+UUOL;medium_airport;Lipetsk Airport;EU;RU
+UUOO;medium_airport;Voronezh International Airport;EU;RU
+UUOT;medium_airport;Donskoye Airport;EU;RU
+UUWE;medium_airport;Yermolino Air Base;EU;RU
+UUWW;large_airport;Vnukovo International Airport;EU;RU
+UUYI;medium_airport;Inta Airport;EU;RU
+UUYY;medium_airport;Syktyvkar Airport;EU;RU
+UWGG;medium_airport;Nizhny Novgorod Strigino International Airport;EU;RU
+UWKD;large_airport;Kazan International Airport;EU;RU
+UWKE;medium_airport;Begishevo Airport;EU;RU
+UWKJ;medium_airport;Yoshkar-Ola Airport;EU;RU
+UWKS;medium_airport;Cheboksary Airport;EU;RU
+UWLL;medium_airport;Ulyanovsk Baratayevka Airport;EU;RU
+UWLW;medium_airport;Ulyanovsk East Airport;EU;RU
+UWOO;medium_airport;Orenburg Central Airport;EU;RU
+UWPP;medium_airport;Penza Airport;EU;RU
+UWPS;medium_airport;Saransk Airport;EU;RU
+UWSG;large_airport;Gagarin International Airport;EU;RU
+UWUU;large_airport;Ufa International Airport;EU;RU
+UWWW;large_airport;Kurumoch International Airport;EU;RU
+XK-0001;medium_airport;KFOR Base Airfield;EU;XK
+XLLL;medium_airport;Soltsy-2 Air Base;EU;RU
+XLMV;medium_airport;Severomorsk-3 Naval Air Base;EU;RU
+XLWF;medium_airport;Fedotovo Naval Air Base;EU;RU
+XUBS;medium_airport;Smolensk North Airport;EU;RU
+XWPR;medium_airport;Rtishchevo Air Base;EU;RU

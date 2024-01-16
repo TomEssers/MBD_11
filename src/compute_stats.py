@@ -30,13 +30,10 @@ schema = StructType([
     StructField("filename", StringType(), True)
 ])
 
-# Create an empty DataFrame with the defined schema
 df = spark.createDataFrame([], schema)
 
-# Loop over the files
 for file in file_list:
     new_df = spark.read.option("header", "true").csv(file)
-    # Get the column name of the first column of new_df
     new_df = new_df.withColumnRenamed(new_df.columns[0],"origin")
     new_df = new_df.withColumnRenamed(new_df.columns[1],"destination")
     new_df = new_df.withColumnRenamed(new_df.columns[2],"time_difference")
@@ -44,17 +41,15 @@ for file in file_list:
     new_df = new_df.withColumnRenamed(new_df.columns[4],"filename")
     df = df.unionByName(new_df)
     
-# Extract the year and month from the firstseen column
 df = df.withColumn("year", year("firstseen"))
 df = df.withColumn("month", month("firstseen"))
     
     # Calculate the average time_difference for each origin-destination pair per month-year
-df_avg_time_difference = df.groupBy("origin", "destination", "year", "month").agg(avg("time_difference").alias("avg_time_difference"))
-df_avg_time_difference.show(10)
+df1 = df.filter(df.time_difference < 64800.0)
+df_avg_time_difference = df1.groupBy("origin", "destination", "year", "month").agg(avg("time_difference").alias("avg_time_difference"))
     
     # Count the number of flights for each origin-destination pair per month-year
 df_flight_count = df.groupBy("origin", "destination", "year", "month").count()
-df_flight_count.show(10)
     
     # Join df_avg_time_difference with df_flight_count on origin, destination, year, and month columns
 df_avg_time_difference = df_avg_time_difference.join(df_flight_count, ["origin", "destination", "year", "month"], "left_outer")

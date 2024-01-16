@@ -34,13 +34,12 @@ if is_directory:
 
 for file in file_list:
     df1 = spark.read.option("header", "true").csv(file)
-    df1 = df1.filter(df1.origin.startswith("EH") & df1.destination.substr(1,2).isin(icao))
+    df1 = df1.filter(df1.origin.startswith("EH") & df1.destination.substr(1,2).isin(icao) & ~df1.origin.isin(["EHVK","EHDB","EHDP","EHGR","EHDS","EHND","EHMZ","EHDR","EHHV","EHLW","EHWO","EHOW"]) & (df1.origin != df1.destination))
     df1 = df1.withColumn("filename", regexp_extract(input_file_name(), r"flightlist_(\d{8}_\d{8})", 1))
     df1 = df1.withColumn("firstseen", to_timestamp(df1.firstseen))
     df1 = df1.withColumn("lastseen", to_timestamp(df1.lastseen))
     df1 = df1.withColumn("time_difference", col("lastseen").cast("long") - col("firstseen").cast("long"))  
 
-    # Write the column names as the first row
     column_names = df1.columns
     df1 = df1.union(spark.createDataFrame([column_names], df1.columns))
 
