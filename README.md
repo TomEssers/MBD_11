@@ -24,6 +24,10 @@ The lockdown period are defined as:
 - Gedeeltelijke lockdown (na tweede lockdown): 28/04/2021 to 26/06/2021
 - Derde lockdown (harde lockdown): 14/12/2021 to 26/01/2022
 
+To only include passenger planes, we have created a list of all existing ICAO aircraft type designators. We used the Wikipedia list of all planes:  https://en.wikipedia.org/wiki/List_of_aircraft_type_designators 
+
+For each of these planes, we looked up the maximum amount of passengers that the plane can take. Military planes, and cargo planes will have a maximum amount of 0 as we want to leave these out. For the sake of this research we will only use planes with at least 20 maximum passengers.
+
 ## Important and interesting links
 
 ...
