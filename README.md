@@ -11,7 +11,7 @@ Citation:
 
 Research question: How did the lockdown periods during the COVID-19 period affect flight traffic from the Netherlands to other European Countries in comparison to non-lockdown periods?
 
-Subquestions:
+Additional Questions:
 - Has the flight time between the different airports changed during these periods? (multiple statistics)
 - How did the delay times evolve over the COVID period in comparison to the years previous to COVID? (multiple statistics)
 
