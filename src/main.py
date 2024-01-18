@@ -2,7 +2,7 @@ from pyspark import SparkContext
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import input_file_name, to_timestamp, col, regexp_extract
 
-# Initialize the Spark Context, and set the Log Level to only recieve erros
+# Initialize the Spark Context, and set the Log Level to only receive errors
 sc = SparkContext()
 sc.setLogLevel("ERROR")
 
