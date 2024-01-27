@@ -1,6 +1,6 @@
 ﻿lockdown_name,start_date,end_date
-Eerste lockdown:,15/03/2020,11/05/2020
-Gedeeltelijke lockdown:,13/10/2020,19/11/2020
-Tweede lockdown:,15/12/2020,28/04/2021
-Gedeeltelijke lockdown (na tweede lockdown):,28/04/2021,26/06/2021
-Derde lockdown (harde lockdown):,14/12/2021,26/01/2022
+Eerste lockdown,15/03/2020,11/05/2020
+Gedeeltelijke lockdown,13/10/2020,19/11/2020
+Tweede lockdown,15/12/2020,28/04/2021
+Gedeeltelijke lockdown (na tweede lockdown),28/04/2021,26/06/2021
+Derde lockdown (harde lockdown),14/12/2021,26/01/2022

@@ -1,19 +1,19 @@
 from pyspark import SparkContext
 from pyspark.sql import SparkSession
-from pyspark.sql.functions import input_file_name, to_timestamp, col, regexp_extract
+from pyspark.sql.functions import input_file_name, to_timestamp, col, regexp_extract, when
+from pyspark.sql.types import BooleanType
 
-
-def import_clean_data(spark, icao_data_path, aircraft_data_path, lockdown_data_path, flight_data_path):
-    # Read ICAO data and filter relevant column
+def import_and_clean_data(spark, icao_data_path, aircraft_data_path, lockdown_data_path, flight_data_path, covid_start_timestamp, covid_end_timestamp):
+    # Read ICAO data and filter relevant column, put result in python array (is small data)
     df_icao = spark.read.csv(icao_data_path, header=True, inferSchema=True, sep=';')
     icao_list = df_icao.select('ICAO').collect()
 
-    # Read aircraft data, filter, and select relevant column
+    # Read aircraft data, filter, and select relevant column, put result in python array (is small data)
     df_aircraft = spark.read.csv(aircraft_data_path, header=True, inferSchema=True, sep=';')
     df_aircraft = df_aircraft.filter(df_aircraft.Passengers >= 20)
     aircraft_list = df_aircraft.select('CODE').collect()
 
-    # Read lockdown data
+    # Read lockdown data, and put in puthon array
     lockdown_list = spark.read.csv(lockdown_data_path, header=True, inferSchema=True)
     # Add start_date and end_date as timestamps, instead of dates
     lockdown_list = lockdown_list.withColumn("start_date", to_timestamp(col("start_date"), "dd/MM/yyyy")) \
@@ -42,10 +42,17 @@ def import_clean_data(spark, icao_data_path, aircraft_data_path, lockdown_data_p
         .withColumn("firstseen", to_timestamp(col("firstseen")))
         .withColumn("lastseen", to_timestamp(col("lastseen")))
         .withColumn("time_difference", (col("lastseen").cast("long") - col("firstseen").cast("long")))
-        .select("origin", "destination", "time_difference", "typecode", "firstseen", "filename")
+        .withColumn("is_during_covid", when(
+            (col("firstseen") >= covid_start_timestamp) & (col("firstseen") <= covid_end_timestamp), True)
+                    .otherwise(False).cast(BooleanType())) #TODO this does not work
     )
 
-    return final_df
+    # Join the lockdown_list DataFrame to final_df based on 'firstseen' timestamp
+    final_df = final_df.join(lockdown_list, (col("firstseen") >= lockdown_list["start_date"]) & (col("firstseen") <= lockdown_list["end_date"]), "left_outer")
+    # If there is a match, use the lockdown_name; otherwise, keep the existing lockdown_name
+    final_df = final_df.withColumn("lockdown_name", when(col("lockdown_name").isNotNull(), col("lockdown_name")).otherwise(""))
+
+    return final_df.select("origin", "destination", "time_difference", "typecode", "firstseen", "filename", "is_during_covid", "lockdown_name")
 
 
 def compute_statistics(cleaned_df):
@@ -67,8 +74,15 @@ if __name__ == "__main__":
     flight_data_path = "/user/s2484765/project/flightdata"
     result_data_path = "/user/s2484765/project/results"
 
+    # Covid related dates
+    covid_start_timestamp = "1579226400"
+    covid_end_timestamp = "1653876000"
+
     # Import the data and clean it
-    cleaned_df = import_clean_data(spark, icao_data_path, aircraft_data_path, flight_data_path)
+    cleaned_df = import_and_clean_data(spark, icao_data_path, aircraft_data_path, lockdown_data_path, flight_data_path, covid_start_timestamp, covid_end_timestamp)
+
+    # Download result
+    cleaned_df.write.csv("/user/s2484765/testing_project", header=True)
 
     # Compute the statistics on the partitions
     compute_statistics(cleaned_df)
