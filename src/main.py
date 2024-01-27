@@ -2,8 +2,9 @@ from pyspark import SparkContext
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import input_file_name, to_timestamp, col, regexp_extract, when
 from pyspark.sql.types import BooleanType
+from datetime import datetime
 
-def import_and_clean_data(spark, icao_data_path, aircraft_data_path, lockdown_data_path, flight_data_path, covid_start_timestamp, covid_end_timestamp):
+def import_and_clean_data(spark, icao_data_path, aircraft_data_path, lockdown_data_path, flight_data_path, covid_start_date, covid_end_date):
     # Read ICAO data and filter relevant column, put result in python array (is small data)
     df_icao = spark.read.csv(icao_data_path, header=True, inferSchema=True, sep=';')
     icao_list = df_icao.select('ICAO').collect()
@@ -14,12 +15,10 @@ def import_and_clean_data(spark, icao_data_path, aircraft_data_path, lockdown_da
     aircraft_list = df_aircraft.select('CODE').collect()
 
     # Read lockdown data, and put in puthon array
-    lockdown_list = spark.read.csv(lockdown_data_path, header=True, inferSchema=True)
+    df_lockdown_list = spark.read.csv(lockdown_data_path, header=True, inferSchema=True)
     # Add start_date and end_date as timestamps, instead of dates
-    lockdown_list = lockdown_list.withColumn("start_date", to_timestamp(col("start_date"), "dd/MM/yyyy")) \
+    df_lockdown_list = df_lockdown_list.withColumn("start_date", to_timestamp(col("start_date"), "dd/MM/yyyy")) \
         .withColumn("end_date", to_timestamp(col("end_date"), "dd/MM/yyyy"))
-
-    # TODO: Lockdown_list gebruiken
 
     # Read flight data
     df_flights = spark.read.csv(flight_data_path, header=True, inferSchema=True)
@@ -43,15 +42,16 @@ def import_and_clean_data(spark, icao_data_path, aircraft_data_path, lockdown_da
         .withColumn("lastseen", to_timestamp(col("lastseen")))
         .withColumn("time_difference", (col("lastseen").cast("long") - col("firstseen").cast("long")))
         .withColumn("is_during_covid", when(
-            (col("firstseen") >= covid_start_timestamp) & (col("firstseen") <= covid_end_timestamp), True)
-                    .otherwise(False).cast(BooleanType())) #TODO this does not work
+            (col("firstseen") >= datetime.strptime(covid_start_date, "%Y-%m-%d")) & (col("firstseen") <= datetime.strptime(covid_end_date, "%Y-%m-%d")), True)
+                    .otherwise(False).cast(BooleanType()))
     )
 
     # Join the lockdown_list DataFrame to final_df based on 'firstseen' timestamp
-    final_df = final_df.join(lockdown_list, (col("firstseen") >= lockdown_list["start_date"]) & (col("firstseen") <= lockdown_list["end_date"]), "left_outer")
-    # If there is a match, use the lockdown_name; otherwise, keep the existing lockdown_name
+    final_df = final_df.join(df_lockdown_list, (col("firstseen") >= df_lockdown_list["start_date"]) & (col("firstseen") <= df_lockdown_list["end_date"]), "left_outer")
+    # If there is a match, use the lockdown_name otherwise, leave it empty
     final_df = final_df.withColumn("lockdown_name", when(col("lockdown_name").isNotNull(), col("lockdown_name")).otherwise(""))
 
+    # Return the final dataframe with the following columns
     return final_df.select("origin", "destination", "time_difference", "typecode", "firstseen", "filename", "is_during_covid", "lockdown_name")
 
 
@@ -74,12 +74,12 @@ if __name__ == "__main__":
     flight_data_path = "/user/s2484765/project/flightdata"
     result_data_path = "/user/s2484765/project/results"
 
-    # Covid related dates
-    covid_start_timestamp = "1579226400"
-    covid_end_timestamp = "1653876000"
+    # Covid start and end date
+    covid_start_date = "2020-01-17"
+    covid_end_date = "2022-05-30"
 
     # Import the data and clean it
-    cleaned_df = import_and_clean_data(spark, icao_data_path, aircraft_data_path, lockdown_data_path, flight_data_path, covid_start_timestamp, covid_end_timestamp)
+    cleaned_df = import_and_clean_data(spark, icao_data_path, aircraft_data_path, lockdown_data_path, flight_data_path, covid_start_date, covid_end_date)
 
     # Download result
     cleaned_df.write.csv("/user/s2484765/testing_project", header=True)
