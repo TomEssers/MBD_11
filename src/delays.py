@@ -1,5 +1,3 @@
-# IMPORTANT: Current version still writes to test location!
-
 # focused on research question: How did the delay times evolve over the COVID period in comparison to the years previous to COVID?
 # Eurocontrol flight data columns:
     # ECTRL ID                          Eurocontrol ID, unique for each flight
@@ -33,10 +31,11 @@
 from pyspark import SparkContext
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import input_file_name
-from pyspark.sql.functions import to_timestamp, col, regexp_extract, when
+from pyspark.sql.functions import to_timestamp, col, regexp_extract, when, year, month, avg
 from pyspark.sql.types import BooleanType
 from datetime import datetime
 
+# resulting csv: ADEP, ADES, filed_time_difference, AC Type, actual_departure, filename, is_during_covid, delay_departure, delay_arrival
 def import_and_clean_data_eurocontrol(spark, icao_data_path, aircraft_data_path, lockdown_data_path, flight_data_path, covid_start_date, covid_end_date):
     # Read ICAO data and filter relevant column
     df_icao = spark.read.csv(icao_data_path, header=True, inferSchema=True, sep=';')
@@ -89,6 +88,78 @@ def import_and_clean_data_eurocontrol(spark, icao_data_path, aircraft_data_path,
 
     return final_df
 
+# Returns a dataframe containing the statistics for each departure airport.
+def stats_per_departure_per_year(data_path, is_during_covid):
+    # Read data
+    df_data = spark.read.csv(data_path, header=True, inferSchema=True)
+
+    # filter and group data
+    final_df = (
+        df_data.filter(
+            col("is_during_covid") == is_during_covid
+        )
+        .withColumn("year", year(col("actual_departure")))
+        .withColumn("total_delay", col("delay_departure") + col("delay_arrival"))
+        .select("ADEP", "year", "delay_departure", "delay_arrival", "total_delay")
+        .groupBy("ADEP", "year").agg(avg("delay_departure").alias("avg_delay_departure"), avg("delay_arrival").alias("avg_delay_destination"), avg("total_delay").alias("avg_total_delay"))
+    )
+    return final_df
+
+# Returns a dataframe containing the statistics for each destination airport.
+def stats_per_destination_per_year(data_path, is_during_covid):
+    # Read data
+    df_data = spark.read.csv(data_path, header=True, inferSchema=True)
+
+    # filter and group data
+    final_df = (
+        df_data.filter(
+            col("is_during_covid") == is_during_covid
+        )
+        .withColumn("year", year(col("actual_departure")))
+        .withColumn("total_delay", col("delay_departure") + col("delay_arrival"))
+        .select("ADES", "year", "delay_departure", "delay_arrival", "total_delay")
+        .groupBy("ADES", "year").agg(avg("delay_departure").alias("avg_delay_departure"), avg("delay_arrival").alias("avg_delay_destination"), avg("total_delay").alias("avg_total_delay"))
+    )
+    return final_df
+
+# Returns a dataframa containing the statistics for each route.
+def stats_per_route_per_year(data_path, is_during_covid):
+    # Read data
+    df_data = spark.read.csv(data_path, header=True, inferSchema=True)
+
+    # filter and group data
+    final_df = (
+        df_data.filter(
+            col("is_during_covid") == is_during_covid
+        )
+        .withColumn("year", year(col("actual_departure")))
+        .withColumn("total_delay", col("delay_departure") + col("delay_arrival"))
+        .withColumn("actual_duration", col("filed_time_difference") + col("total_delay"))
+        .select("ADEP", "ADES", "year", "delay_departure", "delay_arrival", "total_delay", "filed_time_difference", "actual_duration")
+        .groupBy("ADEP", "ADES", "year").agg(avg("delay_departure").alias("avg_delay_departure"), avg("delay_arrival").alias("avg_delay_destination"), avg("total_delay").alias("avg_total_delay"), avg("filed_time_difference").alias("avg_filed_duration"), avg("actual_duration").alias("avg_actual_duration"))
+    )
+    return final_df
+
+# Returns a dataframe containing the statistics for each aircraft.
+def stats_per_aircraft_per_year(data_path, is_during_covid):
+    # Read data
+    df_data = spark.read.csv(data_path, header=True, inferSchema=True)
+
+    # filter and group data
+    final_df = (
+        df_data.filter(
+            col("is_during_covid") == is_during_covid
+        )
+        .withColumn("year", year(col("actual_departure")))
+        .withColumn("total_delay", col("delay_departure") + col("delay_arrival"))
+        .withColumn("actual_duration", col("filed_time_difference") + col("total_delay"))
+        .select("AC Type", "year", "delay_departure", "delay_arrival", "total_delay", "filed_time_difference", "actual_duration")
+        .groupBy("AC Type", "year").agg(avg("delay_departure").alias("avg_delay_departure"), avg("delay_arrival").alias("avg_delay_destination"), avg("total_delay").alias("avg_total_delay"), avg("filed_time_difference").alias("avg_filed_duration"), avg("actual_duration").alias("avg_actual_duration"))
+    )
+    return final_df
+
+
+
 # Initialize the Spark Context, and set the Log Level to only recieve erros
 sc = SparkContext()
 sc.setLogLevel("ERROR")
@@ -101,17 +172,50 @@ icao_data_path = "/user/s2484765/project/icao_europe.csv"
 lockdown_data_path = "/user/s2484765/project/lockdown_dates.csv"
 aircraft_data_path = "/user/s2484765/project/aircrafts.csv"
 flight_data_path = "/user/s2484765/project/eurocontrolflightdata"
-result_data_path = "/user/s2484765/project/results"
-# File paths for testing
-flight_data_test_path = "/user/s2484765/project/eurocontrolflightdata/Flights_2015_03.csv.gz"
-result_data_test_path = "/user/s2406020/project/result_test"
+result_data_path = "/user/s2484765/project/eurocontrolresults"
+result_data_test_path = "/user/s2406020/project/eurocontrolresults"
+result_stats_path = "/user/s2484765/project/eurocontrolstatsresults"
+result_stats_test_path = "/user/s2406020/project/eurocontrolstatsresults"
 
 # Covid start and end date
 covid_start_date = "2020-01-17"
 covid_end_date = "2022-05-30"
 
-# import the data and clean it
-cleaned_eurocontrol_df = import_and_clean_data_eurocontrol(spark, icao_data_path, aircraft_data_path, lockdown_data_path, flight_data_path, covid_start_date, covid_end_date)
+# Running settings
+import_and_clean_data = False
+create_stats = True
+data_test = True
+stats_test = True
 
-# Download result
-cleaned_eurocontrol_df.write.csv(result_data_test_path, header=True)
+if data_test:
+    result_data_path = result_data_test_path
+if stats_test:
+    result_stats_path = result_stats_test_path
+
+if import_and_clean_data:
+    # import the data and clean it
+    cleaned_eurocontrol_df = import_and_clean_data_eurocontrol(spark, icao_data_path, aircraft_data_path, lockdown_data_path, flight_data_path, covid_start_date, covid_end_date)
+
+    # Download result
+    cleaned_eurocontrol_df.write.csv(result_data_path, header=True)
+
+if create_stats:
+    # Create statistics
+    stats_departure_airport_covid = stats_per_departure_per_year(result_data_path, True)
+    stats_departure_airport_no_covid = stats_per_departure_per_year(result_data_path, False)
+    stats_destination_airport_covid = stats_per_destination_per_year(result_data_path, True)
+    stats_destination_airport_no_covid = stats_per_destination_per_year(result_data_path, False)
+    stats_routes_covid = stats_per_route_per_year(result_data_path, True)
+    stats_routes_no_covid = stats_per_route_per_year(result_data_path, False)
+    stats_aircraft_covid = stats_per_aircraft_per_year(result_data_path, True)
+    stats_aircraft_no_covid = stats_per_aircraft_per_year(result_data_path, False)
+
+    # Download result
+    stats_departure_airport_covid.repartition(1).write.csv(result_stats_path + "/departurecovid", header=True)
+    stats_departure_airport_no_covid.repartition(1).write.csv(result_stats_path  + "/departurenocovid", header=True)
+    stats_destination_airport_covid.repartition(1).write.csv(result_stats_path + "/destinationcovid", header=True)
+    stats_destination_airport_no_covid.repartition(1).write.csv(result_stats_path  + "/destinationnocovid", header=True)
+    stats_routes_covid.repartition(1).write.csv(result_stats_path + "/routescovid", header=True)
+    stats_routes_no_covid.repartition(1).write.csv(result_stats_path + "/routesnocovid", header=True)
+    stats_aircraft_covid.repartition(1).write.csv(result_stats_path + "/aircraftcovid", header=True)
+    stats_aircraft_no_covid.repartition(1).write.csv(result_stats_path + "/aircraftnocovid", header=True)
