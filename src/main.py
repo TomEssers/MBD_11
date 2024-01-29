@@ -55,10 +55,6 @@ def import_and_clean_data(spark, icao_data_path, aircraft_data_path, lockdown_da
     return final_df.select("origin", "destination", "time_difference", "typecode", "firstseen", "filename", "is_during_covid", "lockdown_name")
 
 
-def compute_statistics(cleaned_df):
-    print('later')
-
-
 if __name__ == "__main__":
     # Initialize the Spark Session and set the Log Level to only receive errors
     sc = SparkContext()
@@ -83,6 +79,3 @@ if __name__ == "__main__":
 
     # Download result
     cleaned_df.write.csv("/user/s2484765/testing_project", header=True)
-
-    # Compute the statistics on the partitions
-    compute_statistics(cleaned_df)
