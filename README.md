@@ -30,10 +30,6 @@ To only include passenger planes, we have created a list of all existing ICAO ai
 
 For each of these planes, we looked up the maximum amount of passengers that the plane can take. Military planes, and cargo planes will have a maximum amount of 0 as we want to leave these out. For the sake of this research we will only use planes with at least 20 maximum passengers.
 
-## Important and interesting links
-
-...
-
 ## Other
 
 Data is stored on HDFS: /user/s2484765/project/...
